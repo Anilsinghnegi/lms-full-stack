@@ -29,7 +29,7 @@ app.use('/api/course', express.json(), courseRouter)
 app.use('/api/user', express.json(), userRouter)
 
 // Port
-const PORT = process.env.PORT || 5001
+const PORT = process.env.PORT || 5005
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
